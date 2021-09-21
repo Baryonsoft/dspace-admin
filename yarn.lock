@@ -8094,10 +8094,10 @@ ngx-pagination@5.0.0:
   resolved "https://registry.yarnpkg.com/ngx-pagination/-/ngx-pagination-5.0.0.tgz#a4b4c150a70aef17ccd825e4543e174a974bbd14"
   integrity sha512-Ur0pTWRe2ZXoJ8impEzo0IZKxY5aEcQfSmL5uBqW1rHI2J6nfzgZAHsSLagKHFGchXq0PkRlDVVMcIaNxYJwvQ==
 
-ngx-sortablejs@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/ngx-sortablejs/-/ngx-sortablejs-10.0.0.tgz#5252ed2dcde44778f5b231b2e580d9dbdaa6fe14"
-  integrity sha512-fVnIStw4A2o31WnkRc/+iSo9F74XOGmR8GgEWZ4P6H7FrfswSJcx+oU+yfLHrWTtoqfTCal4OZobEWuGtuFocQ==
+ngx-sortablejs@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-sortablejs/-/ngx-sortablejs-11.0.0.tgz#03c529920484c13b867ace352c449502a05befc9"
+  integrity sha512-GAvYoTqd+DyQUJmnuC4gJPoPfmU9ZcVOrhlQ6BIq9IqvO/vumPKIxZnyTQgywUQ1E6xw0oAewHUFisl9/KOTzA==
   dependencies:
     tslib "^2.0.0"
 
