@@ -89,7 +89,7 @@
     "bootstrap": "4.3.1",
     "caniuse-lite": "^1.0.30001165",
     "cerialize": "0.1.18",
-    "cli-progress": "^3.8.0",
+    "cli-progress": "^3.9.1",
     "cookie-parser": "1.4.5",
     "core-js": "^3.7.0",
     "debug-loader": "^0.0.1",
