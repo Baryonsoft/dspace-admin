@@ -159,7 +159,7 @@
     "fork-ts-checker-webpack-plugin": "^6.3.3",
     "html-webpack-plugin": "^4.5.0",
     "http-proxy-middleware": "^2.0.1",
-    "jasmine-core": "^3.6.0",
+    "jasmine-core": "^3.9.0",
     "jasmine-marbles": "0.6.0",
     "jasmine-spec-reporter": "^6.0.0",
     "karma": "^5.2.3",
