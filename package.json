@@ -91,7 +91,7 @@
     "cerialize": "0.1.18",
     "cli-progress": "^3.9.1",
     "cookie-parser": "1.4.5",
-    "core-js": "^3.7.0",
+    "core-js": "^3.18.0",
     "debug-loader": "^0.0.1",
     "deepmerge": "^4.2.2",
     "express": "^4.17.1",
