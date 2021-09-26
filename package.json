@@ -113,7 +113,7 @@
     "ng2-nouislider": "^1.8.2",
     "ngx-infinite-scroll": "^10.0.1",
     "ngx-moment": "^5.0.0",
-    "ngx-pagination": "5.0.0",
+    "ngx-pagination": "5.1.1",
     "ngx-sortablejs": "^11.0.0",
     "nouislider": "^14.6.3",
     "pem": "1.14.4",
