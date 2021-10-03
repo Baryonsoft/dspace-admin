@@ -27,6 +27,11 @@ switch (environment) {
     console.log(`Building ${colors.red.bold(`staging`)} environment`);
     environmentFilePath = '../src/environments/environment.dash.ts';
     break;
+  case '--dashboard':
+    production = true;
+    console.log(`Building ${colors.red.bold(`staging`)} environment`);
+    environmentFilePath = '../src/environments/environment.dashboard.ts';
+    break;
   case '--test':
     console.log(`Building ${colors.blue.bold(`test`)} environment`);
     environmentFilePath = '../src/environments/environment.test.ts';
