@@ -5,7 +5,7 @@
     "ng": "ng",
     "config:dev": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --dev",
     "config:prod": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --prod",
-    "config:staging": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --dash",
+    "config:dash": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --dash",
     "config:test": "ts-node --project ./tsconfig.ts-node.json scripts/set-mock-env.ts",
     "config:test:watch": "nodemon --config mock-nodemon.json",
     "config:dev:watch": "nodemon",
