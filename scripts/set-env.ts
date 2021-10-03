@@ -22,6 +22,11 @@ switch (environment) {
     console.log(`Building ${colors.red.bold(`production`)} environment`);
     environmentFilePath = '../src/environments/environment.prod.ts';
     break;
+  case '--dash':
+    production = true;
+    console.log(`Building ${colors.red.bold(`staging`)} environment`);
+    environmentFilePath = '../src/environments/environment.dash.ts';
+    break;
   case '--test':
     console.log(`Building ${colors.blue.bold(`test`)} environment`);
     environmentFilePath = '../src/environments/environment.test.ts';
@@ -48,7 +53,7 @@ import(environmentFilePath)
   .then((file) => generateEnvironmentFile(merge.all([commonEnv, file.environment, processEnv], mergeOptions)))
   .catch(() => {
     console.log(colors.yellow.bold(`No specific environment file found for ` + environment));
-    generateEnvironmentFile(merge(commonEnv, processEnv, mergeOptions))
+    generateEnvironmentFile(merge(commonEnv, processEnv, mergeOptions));
   });
 
 function generateEnvironmentFile(file: GlobalConfig): void {

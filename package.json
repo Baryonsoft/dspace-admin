@@ -1,10 +1,11 @@
 {
-  "name": "dspace-angular",
+  "name": "dspace-admin",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "config:dev": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --dev",
     "config:prod": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --prod",
+    "config:staging": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --dash",
     "config:test": "ts-node --project ./tsconfig.ts-node.json scripts/set-mock-env.ts",
     "config:test:watch": "nodemon --config mock-nodemon.json",
     "config:dev:watch": "nodemon",
@@ -22,7 +23,8 @@
     "analyze": "webpack-bundle-analyzer dist/browser/stats.json",
     "build": "ng build",
     "build:stats": "ng build --stats-json",
-    "build:prod": "yarn run build:ssr",
+    "build:prod": "yarn run config:prod && ng build --prod",
+    "build:dash": "yarn run config:dash && ng build --prod",
     "build:ssr": "yarn run build:client-and-server-bundles && yarn run compile:server",
     "build:client-and-server-bundles": "ng build --prod && ng run dspace-angular:server:production --bundleDependencies true",
     "test:watch": "npm-run-all --parallel config:test:watch test",
