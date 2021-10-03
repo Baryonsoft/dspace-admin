@@ -7,7 +7,7 @@ export const environment = {
   },
   rest: {
     ssl: true,
-    host: 'baryonics-prod.herokuapp.com',
+    host: 'v1-prod.baryonics.org',
     port: 443,
     nameSpace: '/',
   },
