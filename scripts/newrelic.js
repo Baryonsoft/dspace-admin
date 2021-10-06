@@ -1,9 +1,5 @@
 ;window.NREUM || (NREUM = {});
-NREUM.init = {
-  distributed_tracing: {enabled: true},
-  privacy: {cookies_enabled: false},
-  ajax: {deny_list: ["bam.eu01.nr-data.net"]}
-};
+NREUM.init = {privacy: {cookies_enabled: false}, ajax: {deny_list: ["bam.eu01.nr-data.net"]}};
 window.NREUM || (NREUM = {}), __nr_require = function (t, e, n) {
   function r(n) {
     if (!e[n]) {
