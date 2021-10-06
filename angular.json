@@ -65,7 +65,13 @@
                 "bundleName": "dspace-theme"
               }
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "input": "scripts/newrelic.js",
+                "inject": false,
+                "bundleName": "newrelic"
+              }
+            ]
           },
           "configurations": {
             "production": {
@@ -151,7 +157,8 @@
               "cypress/tsconfig.json"
             ],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "scripts/newrelic.js"
             ]
           }
         },
