@@ -3,7 +3,7 @@ name: Deploy to Netlify (dash)
 on:
   push:
     branches:
-      - main
+      - baryonics
 
 jobs:
   build:
