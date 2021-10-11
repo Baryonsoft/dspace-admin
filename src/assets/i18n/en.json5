@@ -312,6 +312,8 @@
 
   "admin.access-control.epeople.form.table.name": "Name",
 
+  "admin.access-control.epeople.form.table.collectionOrCommunity": "Collection/Community",
+
   "admin.access-control.epeople.form.memberOfNoGroups": "This EPerson is not a member of any groups",
 
   "admin.access-control.epeople.form.goToGroups": "Add to groups",
@@ -350,6 +352,8 @@
 
   "admin.access-control.groups.table.name": "Name",
 
+  "admin.access-control.groups.table.collectionOrCommunity": "Collection/Community",
+
   "admin.access-control.groups.table.members": "Members",
 
   "admin.access-control.groups.table.edit": "Edit",
@@ -381,6 +385,8 @@
   "admin.access-control.groups.form.head.edit": "Edit group",
 
   "admin.access-control.groups.form.groupName": "Group name",
+
+  "admin.access-control.groups.form.groupCommunity": "Community or Collection",
 
   "admin.access-control.groups.form.groupDescription": "Description",
 
@@ -430,6 +436,12 @@
 
   "admin.access-control.groups.form.members-list.table.name": "Name",
 
+  "admin.access-control.groups.form.members-list.table.identity": "Identity",
+
+  "admin.access-control.groups.form.members-list.table.email": "Email",
+
+  "admin.access-control.groups.form.members-list.table.netid": "NetID",
+
   "admin.access-control.groups.form.members-list.table.edit": "Remove / Add",
 
   "admin.access-control.groups.form.members-list.table.edit.buttons.remove": "Remove member with name \"{{name}}\"",
@@ -465,6 +477,8 @@
   "admin.access-control.groups.form.subgroups-list.table.id": "ID",
 
   "admin.access-control.groups.form.subgroups-list.table.name": "Name",
+
+  "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Collection/Community",
 
   "admin.access-control.groups.form.subgroups-list.table.edit": "Remove / Add",
 
@@ -856,7 +870,6 @@
   "collection.edit.item-mapper.tabs.browse": "Browse mapped items",
 
   "collection.edit.item-mapper.tabs.map": "Map new items",
-
 
 
   "collection.edit.logo.delete.title": "Delete logo",
@@ -2361,6 +2374,10 @@
 
   "item.page.collections": "Collections",
 
+  "item.page.collections.loading": "Loading...",
+
+  "item.page.collections.load-more": "Load more",
+
   "item.page.date": "Date",
 
   "item.page.edit": "Edit this item",
@@ -2551,6 +2568,19 @@
   "item.preview.person.givenName": "Name:",
 
   "item.preview.person.identifier.orcid": "ORCID:",
+
+  "item.preview.project.funder.name": "Funder:",
+
+  "item.preview.project.funder.identifier": "Funder Identifier:",
+
+  "item.preview.oaire.awardNumber": "Funding ID:",
+
+  "item.preview.dc.title.alternative": "Acronym:",
+
+  "item.preview.dc.coverage.spatial": "Jurisdiction:",
+
+  "item.preview.oaire.fundingStream": "Funding Stream:",
+
 
   "item.preview.person.identifier.rid": "Researcher ID:",
 
@@ -3870,6 +3900,12 @@
 
   "relationships.isContributorOf": "Contributors",
 
+  "relationships.isContributorOf.OrgUnit": "Contributor (Organizational Unit)",
+
+  "relationships.isContributorOf.Person": "Contributor",
+
+  "relationships.isFundingAgencyOf.OrgUnit": "Funder",
+
 
   "repository.image.logo": "Repository logo",
 
@@ -3912,6 +3948,8 @@
 
   "researcherprofile.success.claim.title" : "Success",
 
+
+  "repository.title.prefixDSpace": "DSpace Angular ::",
 
 
   "resource-policies.add.button": "Add",
@@ -4512,6 +4550,8 @@
 
   "submission.import-external.source.sherpaPublisher": "SHERPA Publishers",
 
+  "submission.import-external.source.openAIREFunding": "Funding OpenAIRE API",
+
   "submission.import-external.source.orcid": "ORCID",
 
   "submission.import-external.source.orcidWorks": "ORCID",
@@ -4616,6 +4656,14 @@
   "submission.sections.describe.relationship-lookup.external-source.import-button-title.Journal Issue": "Import remote journal issue",
 
   "submission.sections.describe.relationship-lookup.external-source.import-button-title.Journal Volume": "Import remote journal volume",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isProjectOfPublication": "Project",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProjectOfPublication.added.new-entity": "New Entity Added!",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProjectOfPublication.title": "Project",
+
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.head.openAIREFunding": "Funding OpenAIRE API",
 
   "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.title": "Import Remote Author",
 
@@ -4751,6 +4799,23 @@
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingOfPublication": "Search for Funding",
 
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isChildOrgUnitOf": "Search for Organizational Units",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openAIREFunding": "Funding OpenAIRE API",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfPublication": "Projects",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfProject": "Funder of the Project",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.openAIREFunding": "Funding OpenAIRE API",
+
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isProjectOfPublication": "Project",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfPublication": "Projects",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfProject": "Funder of the Project",
+
+
+
 
   "submission.sections.describe.relationship-lookup.selection-tab.search-form.placeholder": "Search...",
 
@@ -5230,8 +5295,6 @@
   "workflow-item.edit.breadcrumbs": "Edit workflowitem",
 
   "workflow-item.edit.title": "Edit workflowitem",
-
-  "workflow-item.edit.title": "View workflowitem",
 
   "workflow-item.delete.notification.success.title": "Deleted",
 

@@ -34,6 +34,7 @@ import { NoContent } from '../../../core/shared/NoContent.model';
 import { PaginationService } from '../../../core/pagination/pagination.service';
 import { EpersonRegistrationService } from '../../../core/data/eperson-registration.service';
 import { Registration } from '../../../core/shared/registration.model';
+import { followLink } from '../../../shared/utils/follow-link-config.model';
 
 @Component({
   selector: 'ds-eperson-form',
@@ -275,7 +276,7 @@ export class EPersonFormComponent implements OnInit, OnDestroy {
         }),
         switchMap(([eperson, findListOptions]) => {
           if (eperson != null) {
-            return this.groupsDataService.findAllByHref(eperson._links.groups.href, findListOptions);
+            return this.groupsDataService.findAllByHref(eperson._links.groups.href, findListOptions, true, true, followLink('object'));
           }
           return observableOf(undefined);
         })
