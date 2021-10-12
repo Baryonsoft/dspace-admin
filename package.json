@@ -160,7 +160,7 @@
     "cypress-axe": "^0.13.0",
     "deep-freeze": "0.0.1",
     "dotenv": "^10.0.0",
-    "fork-ts-checker-webpack-plugin": "^6.3.3",
+    "fork-ts-checker-webpack-plugin": "^6.3.4",
     "html-webpack-plugin": "^4.5.2",
     "http-proxy-middleware": "^2.0.1",
     "jasmine-core": "^3.9.0",
