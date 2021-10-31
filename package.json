@@ -81,7 +81,7 @@
     "@angular/router": "~10.2.3",
     "@angularclass/bootloader": "1.0.1",
     "@kolkov/ngx-gallery": "^1.2.3",
-    "@ng-bootstrap/ng-bootstrap": "7.0.0",
+    "@ng-bootstrap/ng-bootstrap": "8.0.4",
     "@ng-dynamic-forms/core": "^12.0.0",
     "@ng-dynamic-forms/ui-ng-bootstrap": "^12.0.0",
     "@ngrx/effects": "^10.0.1",
