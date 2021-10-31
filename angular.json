@@ -44,7 +44,8 @@
             "aot": true,
             "assets": [
               "src/assets",
-              "src/robots.txt"
+              "src/robots.txt",
+              "src/_redirects"
             ],
             "styles": [
               "src/styles/startup.scss",
@@ -64,7 +65,13 @@
                 "bundleName": "dspace-theme"
               }
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "input": "scripts/newrelic.js",
+                "inject": false,
+                "bundleName": "newrelic"
+              }
+            ]
           },
           "configurations": {
             "production": {
@@ -150,7 +157,8 @@
               "cypress/tsconfig.json"
             ],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "scripts/newrelic.js"
             ]
           }
         },

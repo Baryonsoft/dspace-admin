@@ -5,7 +5,7 @@ import { isEmpty } from '../../shared/empty.util';
  * of a URL in to a single, normalized URL
  */
 export class URLCombiner {
-  private parts: string[];
+  private readonly parts: string[];
 
   /**
    * Creates a new URLCombiner
