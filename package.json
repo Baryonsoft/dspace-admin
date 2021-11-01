@@ -115,7 +115,7 @@
     "klaro": "^0.7.18",
     "mirador": "^3.0.0",
     "mirador-dl-plugin": "^0.13.0",
-    "mirador-share-plugin": "^0.10.0",
+    "mirador-share-plugin": "^0.11.0",
     "moment": "^2.29.1",
     "morgan": "^1.10.0",
     "ng-mocks": "12.5.0",
