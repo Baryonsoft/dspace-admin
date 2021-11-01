@@ -1,16 +1,19 @@
 import 'zone.js/dist/zone';
 import 'reflect-metadata';
 import 'core-js/es/reflect';
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { bootloader } from '@angularclass/bootloader';
+import {enableProdMode} from '@angular/core';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {bootloader} from '@angularclass/bootloader';
 
-import { load as loadWebFont } from 'webfontloader';
-import { hasValue } from './app/shared/empty.util';
+import {load as loadWebFont} from 'webfontloader';
+import {hasValue} from './app/shared/empty.util';
 
-import { BrowserAppModule } from './modules/app/browser-app.module';
+import {BrowserAppModule} from './modules/app/browser-app.module';
 
-import { environment } from './environments/environment';
+import {environment} from './environments/environment';
+import {setupSentry} from './config/sentry';
+
+setupSentry();
 
 if (environment.production) {
   enableProdMode();
@@ -25,7 +28,7 @@ export function main() {
     }
   });
 
-  return platformBrowserDynamic().bootstrapModule(BrowserAppModule, {preserveWhitespaces:true});
+  return platformBrowserDynamic().bootstrapModule(BrowserAppModule, {preserveWhitespaces: true});
 }
 
 // support async tag or hmr

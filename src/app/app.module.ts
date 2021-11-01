@@ -57,6 +57,7 @@ import { IdleModalComponent } from './shared/idle-modal/idle-modal.component';
 import { UUIDService } from './core/shared/uuid.service';
 import { CookieService } from './core/services/cookie.service';
 import { AbstractControl } from '@angular/forms';
+import { SentryTestComponent } from './sentry-test/sentry-test.component';
 
 export function getBase() {
   return environment.ui.nameSpace;
@@ -203,6 +204,7 @@ const EXPORTS = [
   ],
   declarations: [
     ...DECLARATIONS,
+    SentryTestComponent,
   ],
   exports: [
     ...EXPORTS,

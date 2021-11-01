@@ -24,12 +24,12 @@ switch (environment) {
     break;
   case '--dash':
     production = true;
-    console.log(`Building ${colors.red.bold(`staging`)} environment`);
+    console.log(`Building ${colors.red.bold(`dash`)} environment`);
     environmentFilePath = '../src/environments/environment.dash.ts';
     break;
   case '--dashboard':
     production = true;
-    console.log(`Building ${colors.red.bold(`staging`)} environment`);
+    console.log(`Building ${colors.red.bold(`dashboard`)} environment`);
     environmentFilePath = '../src/environments/environment.dashboard.ts';
     break;
   case '--test':
@@ -90,7 +90,7 @@ function createServerConfig(host?: string, port?: string, nameSpace?: string, ss
   }
 
   if (hasValue(ssl)) {
-    result.ssl = ssl.trim().match(/^(true|1|yes)$/i) ? true : false;
+    result.ssl = !!ssl.trim().match(/^(true|1|yes)$/i);
   }
 
   return result;
