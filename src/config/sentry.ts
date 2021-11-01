@@ -18,7 +18,7 @@ if (sentryEnvironment === 'production') {
 console.info(`Sentry release: ${sentryRelease}`);
 
 export const setupSentry = () => Sentry.init({
-  dsn: 'https://e1133bfb187c45cd8b08c3099dd491ed@o468147.ingest.sentry.io/5989101',
+  dsn: environment.production ? 'https://e1133bfb187c45cd8b08c3099dd491ed@o468147.ingest.sentry.io/5989101' : null,
   integrations: [
     new Integrations.BrowserTracing({
       routingInstrumentation: Sentry.routingInstrumentation,
