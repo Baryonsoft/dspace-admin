@@ -1,6 +1,6 @@
 {
   "name": "dspace-admin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "scripts": {
     "ng": "ng",
     "config:dev": "ts-node --project ./tsconfig.ts-node.json scripts/set-env.ts --dev",
