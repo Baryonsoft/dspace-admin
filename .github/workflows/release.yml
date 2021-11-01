@@ -42,7 +42,7 @@ jobs:
         run: yarn run lint
 
       - name: Run build
-        run: yarn run config:dashboard && ng build --prod --sourceMap=true
+        run: yarn run config:dashboard && yarn run ng build --prod --sourceMap=true
 
       - name: Get SENTRY_RELEASE
         run: |

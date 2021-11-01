@@ -1,7 +1,7 @@
 # DSpace Continuous Integration/Build via GitHub Actions
 # Concepts borrowed from
 # https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-nodejs
-name: Build
+name: Continuous Integration
 
 # Run this Build for all pushes / PRs to current branch
 on: [push, pull_request]
