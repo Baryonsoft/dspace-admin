@@ -145,7 +145,7 @@
     "@angular/cli": "~10.2.0",
     "@angular/compiler-cli": "~10.2.3",
     "@angular/language-service": "~12.2.12",
-    "@cypress/schematic": "^1.5.1",
+    "@cypress/schematic": "^1.5.3",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@ngrx/store-devtools": "^10.0.1",
     "@ngtools/webpack": "10.2.0",
