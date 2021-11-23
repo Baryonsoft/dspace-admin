@@ -115,7 +115,7 @@
     "jsonschema": "1.4.0",
     "jwt-decode": "^3.1.2",
     "klaro": "^0.7.18",
-    "mirador": "^3.0.0",
+    "mirador": "^3.3.0",
     "mirador-dl-plugin": "^0.13.0",
     "mirador-share-plugin": "^0.11.0",
     "moment": "^2.29.1",

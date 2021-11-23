@@ -8745,10 +8745,10 @@ mirador-share-plugin@^0.11.0:
   resolved "https://registry.yarnpkg.com/mirador-share-plugin/-/mirador-share-plugin-0.11.0.tgz#13e2f654e38839044382acad42d9329e91a8cd5e"
   integrity sha512-fHcdDXyrtfy5pn1zdQNX9BvE5Tjup66eQwyNippE5PMaP8ImUcrFaSL+mStdn+v6agsHcsdRqLhseZ0XWgEuAw==
 
-mirador@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/mirador/-/mirador-3.2.0.tgz#0171478d09ca810ba67bca4a34243434e4dac8f9"
-  integrity sha512-AVyI8fi06ELWIGqDjCp+fFmY4FzKvJKlr24vubISxS/s5aB1O+bfqOH+H9+kaMh9msb9OCJGmD90SMO/+Kc+6A==
+mirador@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/mirador/-/mirador-3.3.0.tgz#7a957a1db1a5388b2b8cafab00db4eb9f97557b9"
+  integrity sha512-BmGfRnWJ45B+vtiAwcFT7n9nKialfejE9UvuUK0NorO37ShArpsKr3yVSD4jQASwSR4DRRpPEG21jOk4WN7H3w==
   dependencies:
     "@material-ui/core" "^4.11.0"
     "@material-ui/icons" "^4.9.1"
@@ -9140,12 +9140,7 @@ normalize-url@^3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
-normalize-url@^4.1.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
-  integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
-
-normalize-url@^4.5.0:
+normalize-url@^4.1.0, normalize-url@^4.5.0:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
