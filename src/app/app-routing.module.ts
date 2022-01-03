@@ -207,8 +207,8 @@ import {SentryTestComponent} from './sentry-test/sentry-test.component';
       ]
     }
     ], {
-      onSameUrlNavigation: 'reload',
-    })
+    onSameUrlNavigation: 'reload',
+})
   ],
   exports: [RouterModule],
 })
