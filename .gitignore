@@ -36,3 +36,4 @@ package-lock.json
 
 .env
 /nbproject/
+/src/environments/environment.dev.ts
