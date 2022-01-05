@@ -10,6 +10,11 @@ export const environment: AppConfig = {
     port: 443,
     nameSpace: '/',
     baseUrl: 'https://dash.baryonics.org',
+    // The rateLimiter settings limit each IP to a 'max' of 500 requests per 'windowMs' (1 minute).
+    rateLimiter: {
+      windowMs: 1 * 60 * 1000, // 1 minute
+      max: 500 // limit each IP to 500 requests per windowMs
+    }
   },
   rest: {
     ssl: true,
