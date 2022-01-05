@@ -1,4 +1,6 @@
-export const environment = {
+import { AppConfig } from '../config/app-config.interface';
+
+export const environment: Partial<AppConfig> = {
   ui: {
     ssl: true,
     host: 'dash.baryonics.org',

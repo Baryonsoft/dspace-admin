@@ -73,7 +73,7 @@ const getLocalConfigPath = (env: Environment) => {
       break;
     case 'development':
     default:
-      envVariations = ['dev', 'development']
+      envVariations = ['dev', 'development'];
   }
 
   // check if any environment variations of app config exist
@@ -105,7 +105,7 @@ const overrideWithConfig = (config: Config, pathToConfig: string) => {
 };
 
 const overrideWithEnvironment = (config: Config, key: string = '') => {
-  for (const property in config) {
+  for (const property of Object.keys( config)) {
     const variable = `${key}${isNotEmpty(key) ? '_' : ''}${property.toUpperCase()}`;
     const innerConfig = config[property];
     if (isNotEmpty(innerConfig)) {
