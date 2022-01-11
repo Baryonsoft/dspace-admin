@@ -35,7 +35,7 @@ export class BrowseByDatePageComponent extends BrowseByMetadataPageComponent {
   /**
    * The default metadata keys to use for determining the lower limit of the StartsWith dropdown options
    */
-  defaultMetadataKeys = ['dc.date'];
+  defaultMetadataKeys = ['dc.date.issued'];
 
   public constructor(protected route: ActivatedRoute,
                      protected browseService: BrowseService,
