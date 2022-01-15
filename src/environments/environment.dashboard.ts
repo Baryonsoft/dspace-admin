@@ -50,7 +50,7 @@ export const environment: AppConfig = {
     // Authentication UI settings
     ui: {
       // the amount of time before the idle warning is shown
-      timeUntilIdle: 20000,
+      timeUntilIdle: 200000,
 
       // the amount of time the user has to react after the idle warning is shown before they are logged out.
       idleGracePeriod: 20000, // 20 sec
@@ -207,10 +207,6 @@ export const environment: AppConfig = {
     {
       name: 'regex-theme',
       regex: 'collections\/e8043bc2.*'
-    },
-    {
-      name: 'uuid-theme',
-      uuid: '0958c910-2037-42a9-81c7-dca80e3892b4'
     },
     {
       name: 'base',
