@@ -91,7 +91,7 @@
     "express-rate-limit": "^5.5.1",
     "fast-json-patch": "^3.1.0",
     "file-saver": "^2.0.5",
-    "filesize": "^8.0.6",
+    "filesize": "^8.0.7",
     "font-awesome": "4.7.0",
     "http-proxy-middleware": "^2.0.1",
     "https": "1.0.0",
