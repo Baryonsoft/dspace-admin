@@ -74,7 +74,7 @@
     "@nguniversal/express-engine": "11.2.1",
     "@ngx-translate/core": "^13.0.0",
     "@nicky-lenaers/ngx-scroll-to": "^9.0.0",
-    "@sentry/angular": "^6.17.7",
+    "@sentry/angular": "^6.17.9",
     "@sentry/tracing": "^6.17.4",
     "angular-idle-preload": "3.0.0",
     "angular2-text-mask": "9.0.0",
