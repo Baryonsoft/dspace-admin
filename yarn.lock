@@ -9570,10 +9570,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-ng-mocks@13.0.4:
-  version "13.0.4"
-  resolved "https://registry.yarnpkg.com/ng-mocks/-/ng-mocks-13.0.4.tgz#4630a7df7e1e51c22da3f729d3e0d74100ef6d7a"
-  integrity sha512-fa5XJEYVIcs5lVRZhTA56fyRRayFaBy/7b9iW66AYeXasHW2pluj594FuLKV7FxU5SZBB4T1p8p8oYON81G5jw==
+ng-mocks@13.1.1:
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/ng-mocks/-/ng-mocks-13.1.1.tgz#e967dacc420c2ecec71826c5f24e0120186fad0b"
+  integrity sha512-LYi/1ccDwHKLwi4/hvUsmxBDeQ+n8BTdg5f1ujCDCO7OM9OVnqkQcRlBHHK+5iFtEn/aqa2QG3xU/qwIhnaL4w==
 
 ng2-file-upload@1.4.0:
   version "1.4.0"
