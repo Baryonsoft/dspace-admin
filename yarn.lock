@@ -239,10 +239,21 @@
     rxjs "6.6.2"
     source-map "0.7.3"
 
-"@angular-devkit/core@11.2.15", "@angular-devkit/core@^11.2.3":
+"@angular-devkit/core@11.2.15":
   version "11.2.15"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-11.2.15.tgz#3e6d0308e049e47a3b21e42a0f2e8d5c31842665"
   integrity sha512-6pGblUHg2Hv730cHhUhauTUNbjuviAgn6n23rfYIlfEPV5uxyZib6AUTS1DTcK7ITA0D1PscSsLicMiGaqQ8OA==
+  dependencies:
+    ajv "6.12.6"
+    fast-json-stable-stringify "2.1.0"
+    magic-string "0.25.7"
+    rxjs "6.6.3"
+    source-map "0.7.3"
+
+"@angular-devkit/core@11.2.18", "@angular-devkit/core@^11.2.3":
+  version "11.2.18"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-11.2.18.tgz#997ae8dbf643bf2abb88d6509f9ef51300df6f35"
+  integrity sha512-w7llSJfLg9/+Qb7kvFIZeUomt2kopt1Ujh6nsm/JGEoZWB6Ay63gtuj/IU/0i96Hw4UWkk6Oe7wKSKuDNMIO/w==
   dependencies:
     ajv "6.12.6"
     fast-json-stable-stringify "2.1.0"
@@ -1714,6 +1725,15 @@
   integrity sha512-uy+ekGlgReO/4N5Ifmd4Dh1s0BTvbvMnjTrSUzmPnaeCjg4zjosA3gcdv+33duQ1Y2ythDSnf2MPYRN9q3tzgQ==
   dependencies:
     "@angular-devkit/core" "11.2.15"
+    enhanced-resolve "5.7.0"
+    webpack-sources "2.2.0"
+
+"@ngtools/webpack@11.2.18":
+  version "11.2.18"
+  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-11.2.18.tgz#c915cbe6fc81da04a916d2a5dc0c37f32336d89d"
+  integrity sha512-5CsCQRc11g7sGGQzelnfrS7zQFVt9Ps7SiajJhUqI2hyNptdItzbc9TVyNMIy4cHIAT+j7kVwqdBSRhiylZcCw==
+  dependencies:
+    "@angular-devkit/core" "11.2.18"
     enhanced-resolve "5.7.0"
     webpack-sources "2.2.0"
 
