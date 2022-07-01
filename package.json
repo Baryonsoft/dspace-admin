@@ -121,7 +121,7 @@
     "ngx-sortablejs": "^11.1.0",
     "nouislider": "^14.6.3",
     "pem": "1.14.6",
-    "postcss-cli": "^9.1.0",
+    "postcss-cli": "^10.0.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.6.3",
     "sortablejs": "1.15.0",
