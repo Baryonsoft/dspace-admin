@@ -58,7 +58,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
       - name: Cache Yarn dependencies
-        uses: actions/cache@v3.0.5
+        uses: actions/cache@v3.0.9
         with:
           # Cache entire Yarn cache directory (see previous step)
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
