@@ -1760,10 +1760,12 @@
   dependencies:
     tslib "^2.0.0"
 
-"@nicky-lenaers/ngx-scroll-to@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@nicky-lenaers/ngx-scroll-to/-/ngx-scroll-to-9.0.0.tgz#c8b455e9968a6116323862d081762880f3492efc"
-  integrity sha512-eS0vyx8qX4UTMluRYc+sQF/vJHCnAKiufWrwQRme0VURwp+RdOoZDZpYrOPTxPfx6CVj72arTeV9auDYa0WKtA==
+"@nicky-lenaers/ngx-scroll-to@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@nicky-lenaers/ngx-scroll-to/-/ngx-scroll-to-14.0.0.tgz#178cb2c1781dd565841d940e1a678d6eda0796fc"
+  integrity sha512-nORagPmAQYDjB5jyQ3awGhbnKTKVARZUCK8FJIe46XjPQX2CI9+WBYvsdqq0CsNWVzCjhnC0Om6krzjOTrTHYQ==
+  dependencies:
+    tslib "^2.3.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
